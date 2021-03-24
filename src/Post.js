@@ -143,7 +143,7 @@ const [getAnswer, setGetAnswer] = useState([]);
                                         </span>{" "} {new Date(answers.timestamp?.toDate()).toLocaleString()} 에 작성됨
                                         </span>
                                         </span> ) : (
-                                            "다른포스트는 빈칸"
+                                            " "
 
                                     )}
                                 </p>
