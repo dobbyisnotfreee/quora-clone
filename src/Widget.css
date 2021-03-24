@@ -1,0 +1,30 @@
+.widget {
+    flex: 0.2;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-right: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    max-height: 85vh;
+    background-color: white;
+}
+
+.widget_header {
+    border-bottom: 1px solid lightgray;
+}
+
+.widget_header > h5 {
+    padding: 10px;
+    color: darkturquoise;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+/* letter-spacing 은 글자 간격! */
+
+.widget_contents {
+    display: flex;
+    flex-direction: column;
+}

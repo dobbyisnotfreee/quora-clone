@@ -1,0 +1,229 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid lightgreen;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.post:hover {
+    border: 2px solid olive;
+}
+
+
+.post_info {
+    display: flex;
+    align-items: center;
+}
+
+.post_info > h5 {
+    color: yellowgreen;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.post_info > h5:hover {
+    text-decoration: underline;
+}
+
+
+.post_info > small {
+    margin-left: 10px;
+}
+
+
+
+.post_body {
+    display: flex;
+    flex-direction: column;
+}
+
+.post_body > .post_question {
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+}
+
+
+
+.post_body > .post_question > p:hover {
+    text-decoration: underline;
+}
+
+.post_body > img {
+    object-fit: contain;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+.post_question > .post_btnAnswer {
+    margin-left: auto;
+    outline: none;
+    border: none;
+    background-color: lightgoldenrodyellow;
+    color:yellowgreen;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+.post_question > .post_btnAnswer:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+
+}
+
+
+.post_footerAction {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 33px;
+    padding: 5px;
+    background-color:lightgoldenrodyellow;
+    align-items: center;
+}
+
+
+
+.post_footerAction > .MuiSvgIcon-root {
+    margin-right:40px;
+    cursor: pointer;
+    color:black;
+
+}
+/* 맨 왼쪽 아이콘 2개 */
+
+
+
+.post_footer{
+    display: flex;
+    align-items: center;
+    margin-top:10px;
+}
+
+.post_footer > .MuiSvgIcon-root {
+    color:black;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+
+.post_footerAction > .MuiSvgIcon-root:hover {
+    cursor: pointer;
+    color:yellow;
+    background-color: darkgray;
+}
+/* 가운데 아이콘 2개 */
+
+
+.post_footerRight {
+    margin-left: auto;
+}
+.post_footerRight > .MuiSvgIcon-root {
+    cursor: pointer;
+    margin-left: 30px;
+    color:black;
+
+
+}
+
+.post_footerRight > .MuiSvgIcon-root:hover {
+    cursor: pointer;
+    color:yellow;
+    background-color: darkgray;
+
+}
+
+/*오른쪽 아이콘 2개 */
+
+
+
+
+.modal_question {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modal_question > h1 {
+    color: #8f1f1b;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.modal_question > p {
+    color: gray;
+    font-size: small;
+}
+
+.modal_question > p > .name {
+    color: black;
+    font-weight: bold;
+}
+
+.modal_answer {
+    display: flex;
+    padding-top: 20px;
+    flex: 1;
+}
+
+.modal_answer > textarea {
+    width: 100%;
+    height: 300px;
+    padding: 5px;
+    font-size: 15px;
+    color: black;
+
+}
+
+.modal_buttons {
+    display: flex;
+    align-items: center;
+    margin-right: -20px;
+    margin-top: 0;
+    border-top: 1px solid lightgray;
+}
+
+.modal_buttons > .can {
+    margin-left: auto;
+    border: none;
+    margin-top: 5px;
+    outline: none;
+    color: gray;
+    font-weight: 500;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+}
+.modal_buttons > .add {
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    background-color: rgb(0, 64, 255);
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+

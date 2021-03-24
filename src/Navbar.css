@@ -1,0 +1,220 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    background-color: white;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.5);
+}
+
+.qHeader_logo > img {
+    margin-right: 20px;
+    height: 70px;
+    object-fit: contain;
+    margin-left: 15px;
+}
+
+
+.qHeader_icons {
+    display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.qHeader_icon > .MuiSvgIcon-root {
+    color: yellowgreen;
+    font-size: xx-large;
+    cursor: pointer;
+    padding: 5px 10px;
+
+}
+
+.qHeader_icon > .MuiSvgIcon-root:hover {
+    color: black;
+    border-radius: 10px;
+    background-color: yellowgreen;
+    transform: scale(1.1);
+
+
+}
+
+.qHeader_input {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 100%;
+    border: 1px solid lightgreen;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.qHeader_input > input {
+    background-color: transparent;
+    outline: none;
+    width: 400px;
+    border: none;
+    color: rgb(49, 49, 49);
+}
+
+.qHeader_input > .MuiSvgIcon-root {
+    color: yellowgreen;
+}
+
+
+.qHeader_Rem {
+    display: flex;
+    align-items: center;
+}
+
+.qHeader_Rem > .qHeader_avatar {
+    cursor: pointer;
+}
+
+
+.qHeader_Rem > .MuiSvgIcon-root {
+    font-size: xx-large;
+    color: yellowgreen;
+    margin-left: 30px;
+    cursor: pointer;
+
+
+}
+
+
+.qHeader_Rem > .MuiSvgIcon-root:hover {
+    color: black;
+
+
+}
+
+
+.qHeader_Rem > .MuiButton-root {
+
+    color: black;
+    margin-left: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+    text-transform: inherit;
+    background-color: yellowgreen;
+    border-radius: 20px;
+
+}
+
+.qHeader_Rem > .MuiButton-root:hover {
+    color: yellowgreen;
+    background-color: black;
+
+}
+
+
+
+
+
+
+.modal_title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    border-bottom: 1px solid lightgray;
+}
+
+.modal_title > h5 {
+    color: yellowgreen;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 30px;
+}
+
+.modal_title > h5:hover {
+    color: lightgoldenrodyellow;
+}
+
+.modal_info {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.modal_info > p {
+    margin-left: 10px;
+    font-size: small;
+    color: gray;
+}
+
+.modal_info > .modal_scope {
+    display: flex;
+    align-items: center;
+    color: yellowgreen;
+    padding: 5px;
+    margin-left: 10px;
+    background-color:white;
+    border-radius: 33px;
+    cursor: pointer;
+
+}
+
+.modal_Field {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    flex: 1;
+}
+
+.modal_Field > .modal_fieldLink {
+    color : yellowgreen;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.modal_Field > .modal_fieldLink > input {
+    flex: 1;
+    border: none;
+    outline: none;
+    margin-left : 5px;
+}
+
+.modal_buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 260px;
+    margin-right: -20px;
+    border-top: 1px solid lightgray;
+}
+
+.modal_buttons > .can {
+    margin-left: auto;
+    border:none;
+    margin-top: 5px;
+    outline:none;
+    color:yellowgreen;
+    font-weight: 500;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius:33px;
+    cursor: pointer;
+}
+
+.modal_buttons > .add {
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    background-color:yellowgreen;
+    color:white;
+    font-weight: 700;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+}
+
+
+
+
+
